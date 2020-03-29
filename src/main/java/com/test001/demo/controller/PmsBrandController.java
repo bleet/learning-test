@@ -22,6 +22,8 @@ public class PmsBrandController {
     @Autowired
     private PmsBrandService demoService;
 
+
+    /* 日志记录器 */
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
 
     @ApiOperation("获取所有品牌列表")
